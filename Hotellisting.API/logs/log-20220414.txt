@@ -1,0 +1,40 @@
+2022-04-14 21:12:15.241 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 21:12:15.323 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 21:12:15.340 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 21:12:15.347 +01:00 [INF] Hosting environment: Development
+2022-04-14 21:12:15.363 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-14 21:13:34.180 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 21:13:34.263 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 21:13:34.282 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 21:13:34.286 +01:00 [INF] Hosting environment: Development
+2022-04-14 21:13:34.288 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-14 21:22:00.102 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 21:22:00.268 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 21:22:00.312 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 21:22:00.317 +01:00 [INF] Hosting environment: Development
+2022-04-14 21:22:00.322 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-14 21:27:05.158 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 21:27:05.256 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 21:27:05.269 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 21:27:05.271 +01:00 [INF] Hosting environment: Development
+2022-04-14 21:27:05.273 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-14 21:33:42.147 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 21:33:42.311 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 21:33:42.355 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 21:33:42.358 +01:00 [INF] Hosting environment: Development
+2022-04-14 21:33:42.363 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-14 21:41:52.538 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 21:41:52.713 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 21:41:52.801 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 21:41:52.808 +01:00 [INF] Hosting environment: Development
+2022-04-14 21:41:52.810 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-14 21:46:12.547 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 21:46:12.667 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 21:46:12.682 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 21:46:12.685 +01:00 [INF] Hosting environment: Development
+2022-04-14 21:46:12.687 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-14 22:01:13.428 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-14 22:01:13.543 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-14 22:01:13.559 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 22:01:13.563 +01:00 [INF] Hosting environment: Development
+2022-04-14 22:01:13.565 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
