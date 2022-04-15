@@ -1,5 +1,9 @@
+using Hotellisting.API.Contracts;
 using Hotellisting.API.Data;
+using Hotellisting.API.Data.Models;
+using Hotellisting.API.Repository;
 using Hotellisting.API.Utilities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -23,7 +27,16 @@ builder.Services.AddCors(options =>
         b.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
     });
 });
+
+builder.Services.AddIdentityCore<ApiUser>()
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<HotelListingDbContext>();
+
 builder.Services.AddAutoMapper(typeof(MapperConfig));
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<ICountryRepository, CountryRepository>();
+builder.Services.AddScoped<IHotelRepository, HotelRepository>();
+builder.Services.AddScoped<IAuthManager, AuthManager>();
 
 builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
