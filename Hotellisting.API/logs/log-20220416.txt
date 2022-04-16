@@ -1,0 +1,122 @@
+2022-04-16 08:40:32.296 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 08:40:32.390 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 08:40:32.407 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 08:40:32.409 +01:00 [INF] Hosting environment: Development
+2022-04-16 08:40:32.411 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 08:40:36.215 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Account/register" for actions - Hotellisting.API.Controllers.AccountController.Register (Hotellisting.API),Hotellisting.API.Controllers.AccountController.Login (Hotellisting.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-16 08:41:00.954 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 08:41:01.015 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 08:41:01.027 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 08:41:01.029 +01:00 [INF] Hosting environment: Development
+2022-04-16 08:41:01.030 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 08:41:04.545 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Account/register" for actions - Hotellisting.API.Controllers.AccountController.Register (Hotellisting.API),Hotellisting.API.Controllers.AccountController.Login (Hotellisting.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-16 08:43:39.709 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 08:43:39.780 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 08:43:39.792 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 08:43:39.794 +01:00 [INF] Hosting environment: Development
+2022-04-16 08:43:39.796 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 08:43:42.680 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Account/register" for actions - Hotellisting.API.Controllers.AccountController.Register (Hotellisting.API),Hotellisting.API.Controllers.AccountController.Login (Hotellisting.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-16 08:45:03.033 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 08:45:03.129 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 08:45:03.143 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 08:45:03.152 +01:00 [INF] Hosting environment: Development
+2022-04-16 08:45:03.154 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 10:49:58.560 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 10:49:58.743 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 10:49:58.828 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 10:49:58.830 +01:00 [INF] Hosting environment: Development
+2022-04-16 10:49:58.834 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 10:51:41.407 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 10:51:41.543 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 10:51:41.584 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 10:51:41.585 +01:00 [INF] Hosting environment: Development
+2022-04-16 10:51:41.648 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 10:52:27.373 +01:00 [WRN] Invalid password for user.
+2022-04-16 10:54:44.315 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 10:54:44.545 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 10:54:44.995 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 10:54:45.115 +01:00 [INF] Hosting environment: Development
+2022-04-16 10:54:45.121 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 10:56:19.726 +01:00 [WRN] Invalid password for user.
+2022-04-16 11:00:00.838 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 11:00:01.042 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 11:00:01.176 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 11:00:01.228 +01:00 [INF] Hosting environment: Development
+2022-04-16 11:00:01.230 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 11:01:39.423 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Hotellisting.API.Repository.AuthManager.GenerateToken(ApiUser user) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Repository\AuthManager.cs:line 62
+   at Hotellisting.API.Repository.AuthManager.login(LoginDTO loginDTO) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Repository\AuthManager.cs:line 36
+   at Hotellisting.API.Controllers.AccountController.Login(LoginDTO loginDTO) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Controllers\AccountController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-16 11:09:55.627 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 11:09:55.755 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 11:09:55.768 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 11:09:55.773 +01:00 [INF] Hosting environment: Development
+2022-04-16 11:09:55.775 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 11:18:52.572 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 11:18:52.644 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 11:18:52.678 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 11:18:52.695 +01:00 [INF] Hosting environment: Development
+2022-04-16 11:18:52.697 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 11:38:40.284 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 11:38:40.836 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 11:38:40.869 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 11:38:40.871 +01:00 [INF] Hosting environment: Development
+2022-04-16 11:38:40.877 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 11:39:38.997 +01:00 [WRN] Invalid password for user.
+2022-04-16 11:39:51.867 +01:00 [WRN] Invalid password for user.
+2022-04-16 11:39:58.607 +01:00 [WRN] Invalid password for user.
+2022-04-16 11:40:00.115 +01:00 [WRN] Invalid password for user.
+2022-04-16 11:43:44.241 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 11:43:44.529 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 11:43:45.129 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 11:43:45.433 +01:00 [INF] Hosting environment: Development
+2022-04-16 11:43:45.435 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 13:48:44.587 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 13:48:44.832 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 13:48:45.033 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 13:48:45.048 +01:00 [INF] Hosting environment: Development
+2022-04-16 13:48:45.062 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 13:54:41.379 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 13:54:41.893 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 13:54:42.429 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 13:54:42.431 +01:00 [INF] Hosting environment: Development
+2022-04-16 13:54:42.433 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-16 13:56:40.157 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-16 13:56:40.481 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-16 13:56:40.662 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 13:56:40.665 +01:00 [INF] Hosting environment: Development
+2022-04-16 13:56:40.667 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
