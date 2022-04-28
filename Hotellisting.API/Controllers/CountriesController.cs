@@ -13,6 +13,7 @@ using Hotellisting.API.DTOs.Country;
 using Hotellisting.API.Repository;
 using Hotellisting.API.Contracts;
 using Microsoft.AspNetCore.Authorization;
+using Hotellisting.API.Exceptions;
 
 namespace Hotellisting.API.Controllers
 {
@@ -23,11 +24,13 @@ namespace Hotellisting.API.Controllers
         
         private readonly IMapper _mapper;
         private readonly ICountryRepository _countryRepository;
+        private readonly ILogger _logger;
 
-        public CountriesController(IMapper mapper, ICountryRepository countryRepository)
+        public CountriesController(IMapper mapper, ICountryRepository countryRepository,ILogger<CountriesController> logger)
         {
             this._mapper = mapper;
             this._countryRepository = countryRepository;
+            this._logger = logger;
         }
 
         // GET: api/Countries
@@ -47,8 +50,10 @@ namespace Hotellisting.API.Controllers
            
 
             if (country == null)
-            {
-                return NotFound();
+            {/*
+                _logger.LogWarning($"No Record found in {nameof(GetCountry)} with Id: {id}");
+                return NotFound();*/
+                throw new NotFoundException(nameof(GetCountry), id);
             }
 
             var countryDTO = _mapper.Map<CountryDTO>(country);
@@ -69,7 +74,7 @@ namespace Hotellisting.API.Controllers
             var country = await _countryRepository.GetAsync(id);
             if (country == null)
             {
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountries), id);
             }
 
             _mapper.Map(updateCountryDTO, country);
@@ -113,7 +118,7 @@ namespace Hotellisting.API.Controllers
             var country = await _countryRepository.GetAsync(id);
             if (country == null)
             {
-                return NotFound();
+                throw new NotFoundException(nameof(GetCountries), id);
             }
 
             await _countryRepository.DeleteAsync(id);

@@ -10,10 +10,12 @@ namespace Hotellisting.API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAuthManager _authManager;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(IAuthManager authManager)
+        public AccountController(IAuthManager authManager,ILogger<AccountController> logger)
         {
             this._authManager = authManager;
+            this._logger = logger;
         }
 
 
@@ -27,20 +29,21 @@ namespace Hotellisting.API.Controllers
 
         public async Task<IActionResult> Register([FromBody] ApiUserDTO apiUserDTO )
         {
-            var errors = await _authManager.Register(apiUserDTO);
+            _logger.LogInformation($"Registration Attempt for {apiUserDTO.Email}");
+           
+                var errors = await _authManager.Register(apiUserDTO);
 
-            if(errors.Any())
-            {
-                foreach(var error in errors)
+                if (errors.Any())
                 {
-                    ModelState.AddModelError(error.Code, error.Description);
-                    
+                    foreach (var error in errors)
+                    {
+                        ModelState.AddModelError(error.Code, error.Description);
+
+                    }
+                    return BadRequest(ModelState);
                 }
-                return BadRequest(ModelState);
-            }
-
-            return Ok("User account created!");
-
+                return Ok("User account created!");
+            
         }
 
 
@@ -54,15 +57,15 @@ namespace Hotellisting.API.Controllers
 
         public async Task<IActionResult> Login([FromBody] LoginDTO loginDTO)
         {
-            var authResponse= await _authManager.login(loginDTO);
+            _logger.LogInformation($"Login Attempt for {loginDTO.Email}");
             
-            if(authResponse == null)
-            {
-                return Unauthorized();
-            }
+              var authResponse = await _authManager.login(loginDTO);
 
-            return Ok(authResponse);
-
+                if (authResponse == null)
+                {
+                    return Unauthorized();
+                }
+                return Ok(authResponse);
         }
 
 

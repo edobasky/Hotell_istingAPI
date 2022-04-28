@@ -1,0 +1,76 @@
+2022-04-24 11:45:41.746 +01:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Hotellisting.API.Middleware.ExceptionMidddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__27_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-04-24 11:47:21.680 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-24 11:47:21.860 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-24 11:47:21.913 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-24 11:47:21.916 +01:00 [INF] Hosting environment: Development
+2022-04-24 11:47:21.918 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-24 11:48:35.898 +01:00 [INF] Login Attempt for user@example1.com
+2022-04-24 11:48:35.924 +01:00 [INF] Looking for User with email user@example1.com
+2022-04-24 11:50:40.406 +01:00 [ERR] Something Went Wrong while processing /api/Countries/2
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Hotellisting.API.Controllers.CountriesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method261(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Hotellisting.API.Middleware.ExceptionMidddleware.InvokeAsync(HttpContext context) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Middleware\ExceptionMidddleware.cs:line 22
+2022-04-24 11:52:08.667 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-24 11:52:09.518 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-24 11:52:10.164 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-24 11:52:10.186 +01:00 [INF] Hosting environment: Development
+2022-04-24 11:52:10.204 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-24 11:54:59.703 +01:00 [ERR] Something Went Wrong while processing /api/Countries/2
+Hotellisting.API.Exceptions.NotFoundException: GetCountry (2) was not found
+   at Hotellisting.API.Controllers.CountriesController.GetCountry(Int32 id) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Controllers\CountriesController.cs:line 56
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Hotellisting.API.Middleware.ExceptionMidddleware.InvokeAsync(HttpContext context) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Middleware\ExceptionMidddleware.cs:line 22
+2022-04-24 11:57:57.694 +01:00 [INF] Now listening on: https://localhost:7070
+2022-04-24 11:57:57.787 +01:00 [INF] Now listening on: http://localhost:5070
+2022-04-24 11:57:57.810 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-24 11:57:57.813 +01:00 [INF] Hosting environment: Development
+2022-04-24 11:57:57.815 +01:00 [INF] Content root path: C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\
+2022-04-24 11:59:40.136 +01:00 [ERR] Something Went Wrong while processing /api/Countries/2
+Hotellisting.API.Exceptions.NotFoundException: GetCountry (2) was not found
+   at Hotellisting.API.Controllers.CountriesController.GetCountry(Int32 id) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Controllers\CountriesController.cs:line 56
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Hotellisting.API.Middleware.ExceptionMidddleware.InvokeAsync(HttpContext context) in C:\Users\hp\Desktop\MyProjects\Hotel_list\Hotellisting.NET6\Hotellisting.API\Middleware\ExceptionMidddleware.cs:line 22
