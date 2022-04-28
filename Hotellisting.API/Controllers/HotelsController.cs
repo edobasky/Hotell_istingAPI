@@ -34,7 +34,17 @@ namespace Hotellisting.API.Controllers
         {
             var hotel = await _hotelRepository.GetAllAsync();
             return Ok(_mapper.Map<List<HotelDTO>>(hotel));
-        }  
+        }
+
+
+        // GET: api/Hotels
+        [HttpGet]
+        public async Task<ActionResult<PagedResult<HotelDTO>>> GetPagedHotels([FromQuery] QueryParameters queryParameters)
+        {
+            var pagedHotelsResult = await _hotelRepository.GetAllAsync<HotelDTO>(queryParameters);
+            return Ok(pagedHotelsResult);
+        }
+
 
         // GET: api/Hotels/5
         [HttpGet("{id}")]
